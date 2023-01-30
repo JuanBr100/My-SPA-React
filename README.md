@@ -1,4 +1,4 @@
-#Ignore the bad CSS I'm still learning :)
+# Ignore the bad CSS I'm still learning :)
 
 # Getting Started with Create React App
 
