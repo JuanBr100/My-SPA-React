@@ -1,0 +1,169 @@
+.bem-vindo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 395px
+}
+.bem-vindo h2 {
+  margin: 0 auto;
+}
+
+.bem-vindo h3 {
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 27px;
+  padding: 0 340px;
+  margin: 45px auto;
+  height: 64px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.bem-vindo button {
+  width: 320px;
+  height: 95px;
+  padding: 20px 33px 21px;
+}
+/* Sessão redes sociais */
+.redes-sociais {
+  padding: 0 121px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 362px;
+  margin-bottom: 140px;
+  border: 1px solid red;
+}
+
+.redes-sociais-textos h3 {
+  font-size: var(--tamanho-h3);
+}
+.redes-sociais-textos {
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.redes-sociais-textos h2 {
+  width: 600px;
+  margin: 19px 0 0 0;
+}
+
+.redes-sociais-imagens ul {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 109px;
+}
+
+.redes-sociais-imagens li {
+  height: 138px;
+  width: 138px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  transition: all 1s;
+}
+
+.redes-sociais-imagens i {
+  font-size: 1.5rem;
+}
+
+.redes-sociais-imagens li:hover {
+  background-color: #e62721;
+  border-color: #e62721;
+}
+
+/* Sessao Cursos */
+
+.container-cursos-descricao h2 {
+  text-align: center;
+  padding: 12px;
+}
+.container-cursos-descricao h3 {
+  padding: 0 0 0 12px;
+  font-size: 27px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin: 5px 0 110px 0;
+}
+
+.container-lista-cursos {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+.cursos-item-img-descricao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  margin: 35px 25px 35px 25px;
+  
+}
+
+.cursos-item {
+  width: 532px;
+  height: 296px;
+  border: 1px solid red;
+  align-items: flex-start;
+  margin: 0 17px;
+  border-radius: 10px;
+}
+
+.cursos-item p {
+  font-size: 16px;
+  
+  width: 440px;
+  padding: 0px;
+  margin: 0 14px 0 37px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.cursos-item-img-descricao h2 {
+  font-size: 36px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  
+}
+
+.cursos-item-img-descricao img {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border: 1px solid red;
+  margin: 0px 0 0 10px;
+}
+
+.alguns-trabalhos {
+  height: 1000px;
+}
